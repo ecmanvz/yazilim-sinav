@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HES_kodu_kontrol_uyg", "HES_kodu_kontrol_uyg.csproj", "{10D75AF9-777E-4D47-ACC4-4E43CCD58B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10D75AF9-777E-4D47-ACC4-4E43CCD58B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D75AF9-777E-4D47-ACC4-4E43CCD58B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D75AF9-777E-4D47-ACC4-4E43CCD58B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D75AF9-777E-4D47-ACC4-4E43CCD58B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F27E5EB1-F098-4345-BB94-37302F53E439}
+	EndGlobalSection
+EndGlobal
