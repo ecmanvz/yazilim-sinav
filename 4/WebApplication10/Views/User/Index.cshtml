@@ -1,0 +1,34 @@
+﻿@model List<WebApplication10.Models.User> 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kullanıcılar</title>
+</head>
+<body>
+    <h1>Kullanıcılar</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Adı</th>
+                <th>Email</th>
+                <th>Cinsiyet</th>
+                <th>Durum</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.Gender</td>
+                    <td>@user.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
